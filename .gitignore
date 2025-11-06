@@ -1,0 +1,42 @@
+# ---------------------------------
+# CMake Build Artifacts
+# ---------------------------------
+# Standard CMake build directory
+/build/
+
+# CMake configuration files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# CTest files
+Testing/
+
+# ---------------------------------
+# IDE/OS Specific Files
+# ---------------------------------
+# Visual Studio / VS Code (if used)
+.vscode/
+*.sln
+*.vcxproj*
+
+# macOS/OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ---------------------------------
+# Executables and Object Files
+# ---------------------------------
+# Ignore the built executable
+/contact_manager
+
+# Object files
+*.o
+*.obj
+
+# Debugging and log files
+*.log
+*.core
